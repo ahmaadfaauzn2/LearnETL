@@ -5,13 +5,17 @@ This project demonstrates an ETL (Extract, Transform, Load) process using **Tale
 ## Features
 
 • **Extract**: Retrieve data from various sources.
+
 • **Transform**: Process, clean, and prepare the data.
+
 • **Load**: Store the processed data into a SQL Server database.
 
 ## Tools and Technologies
 
 • **Talend**: ETL tool for designing and managing data workflows.
+
 • **SQL Server**: Relational database for storing transformed data.
+
 • **Docker**: Container platform for running SQL Server.
 
 ## Prerequisites
