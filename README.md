@@ -23,7 +23,9 @@ This project demonstrates an ETL (Extract, Transform, Load) process using **Tale
 Ensure the following are installed on your system:
 
 • Docker
+
 • Talend (Open Studio or licensed version)
+
 • Git (optional, for version control)
 
 ## Screenshots
