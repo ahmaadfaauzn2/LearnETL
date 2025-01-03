@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Du-5AcaLEe-THbjG3mbgXQ" name="DMA_Dummy" dataPackage="_Du-5AsaLEe-THbjG3mbgXQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Hizki Khairani/Downloads/Data Dummy Rapih/DATA_DMA.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Du-5AsaLEe-THbjG3mbgXQ" name="default" dataManager="_Du-5AcaLEe-THbjG3mbgXQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Du-5A8aLEe-THbjG3mbgXQ" id="__xSUYMaKEe-THbjG3mbgXQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5BMaLEe-THbjG3mbgXQ" label="AS_OF_DATE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5BcaLEe-THbjG3mbgXQ" label="FLAG_PAYROLL" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5BsaLEe-THbjG3mbgXQ" label="CUSTOMER_NAME" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5B8aLEe-THbjG3mbgXQ" label="SEGMENT" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5CMaLEe-THbjG3mbgXQ" label="SENTRA_CODE" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5CcaLEe-THbjG3mbgXQ" label="CIF_KEY" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5CsaLEe-THbjG3mbgXQ" label="NOREK" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5C8aLEe-THbjG3mbgXQ" label="BRANCH_CODE" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5DMaLEe-THbjG3mbgXQ" label="ACCOUNT_TYPE" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5DcaLEe-THbjG3mbgXQ" label="SUB_CATGEGORY" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5DsaLEe-THbjG3mbgXQ" label="CURRENCY" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5D8aLEe-THbjG3mbgXQ" label="PRODUCT_NAME" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5EMaLEe-THbjG3mbgXQ" label="BAKI_DEBET_ORG" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5EcaLEe-THbjG3mbgXQ" label="BAKI_DEBET_IDR" length="12" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5EsaLEe-THbjG3mbgXQ" label="AVG_BAKI_DEBET_MTD_ORG" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5E8aLEe-THbjG3mbgXQ" label="AVG_BAKI_DEBET_MTD_IDR" length="12" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5FMaLEe-THbjG3mbgXQ" label="AVG_BAKI_DEBET_YTD_ORG" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5FcaLEe-THbjG3mbgXQ" label="AVG_BAKI_DEBET_YTD_IDR" length="12" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5FsaLEe-THbjG3mbgXQ" label="DENDA" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5F8aLEe-THbjG3mbgXQ" label="TUNGGAKAN_BIAYA" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5GMaLEe-THbjG3mbgXQ" label="TUNGGAKAN_BUNGA" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5GcaLEe-THbjG3mbgXQ" label="OUTSTANDING_ORG" length="8" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5GsaLEe-THbjG3mbgXQ" label="OUTSTANDING_IDR" length="12" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5G8aLEe-THbjG3mbgXQ" label="INTEREST_INCOME_MUTASI" length="8" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5HMaLEe-THbjG3mbgXQ" label="ECL_FINAL_IDR_CURRENT" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5HcaLEe-THbjG3mbgXQ" label="WORST_COLLECTIBILITY" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5HsaLEe-THbjG3mbgXQ" label="SUKU_BUNGA" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5H8aLEe-THbjG3mbgXQ" label="FLAG_PRODUK" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Du-5IMaLEe-THbjG3mbgXQ" label="KURS" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
