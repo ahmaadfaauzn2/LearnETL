@@ -45,9 +45,13 @@ Ensure the following are installed on your system:
 ## Project Structure
 
 • **joblets/**: Contains reusable Talend components.
+
 • **metadata/**: Includes metadata definitions for connections, schemas, and other project-specific settings.
+
 • **process/**: Houses the primary ETL workflows created in Talend.
+
 • **sqlPatterns/**: Contains SQL templates or patterns used in the project.
+
 • **.git/**: Git version control repository.
 
 ## Setup Instructions
